@@ -13,6 +13,7 @@ class CashRegister
       counter = 0
       while counter < quantity
         @items << item
+        counter += 1
   end
   def apply_discount
     if @discount > 0
