@@ -6,6 +6,6 @@ class CashRegister
     @items = []
   end
   def add_item
-    @add_item = add_item
+    @add_item
   end
 end
