@@ -20,8 +20,8 @@ class CashRegister
     end
   end
   def items
-    @items = []
-    @items << item
+    items = []
+    items << item
   end
   
 end
