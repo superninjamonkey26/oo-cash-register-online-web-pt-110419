@@ -8,7 +8,7 @@ class CashRegister
   def add_item(item, price, quantity = 1)
     @price = price
     @total += price * quantity
-#    @last_transaction = price * quantity
+    @last_transaction = price * quantity
   end
   def apply_discount
     if @discount > 0
