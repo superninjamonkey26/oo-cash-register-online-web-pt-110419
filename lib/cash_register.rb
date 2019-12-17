@@ -12,6 +12,6 @@ class CashRegister
   end
   def apply_discount
     if @discount > 0
-      @to_take_off = (price * discount)
+      @to_take_off = (price * discount)/100
   end
 end
