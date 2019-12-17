@@ -11,6 +11,7 @@ class CashRegister
 #    @last_transaction = price * quantity
   end
   def apply_discount
-    @discount = total_price
+    if @discount > 0
+      
   end
 end
